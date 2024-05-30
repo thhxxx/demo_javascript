@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "image": "vngoods_00_427917.avif",
+      "category": "T-shirts",
+      "name": "T-shirts White Basic",
+      "price": "35",
+      "id": 1
+    },
+    {
+      "image": "vngoods_00_461096.avif",
+      "category": "T-shirts",
+      "name": "T-shirts Doraemon",
+      "price": "25",
+      "id": 2
+    },
+    {
+      "image": "vngoods_01_455390.avif",
+      "category": "Polo",
+      "name": "Polo White Blue",
+      "price": "20",
+      "id": 3
+    },
+    {
+      "image": "vngoods_02_450189.avif",
+      "category": "Hoodies",
+      "name": "Hoodies White",
+      "price": "22",
+      "id": 4
+    },
+    {
+      "image": "vngoods_03_456773.avif",
+      "category": "T-shirts",
+      "name": "T-shirts Grey Black",
+      "price": "15",
+      "id": 5
+    },
+    {
+      "image": "vngoods_03_459713.avif",
+      "category": "Polo",
+      "name": "Polo Grey",
+      "price": "20",
+      "id": 6
+    },
+    {
+      "image": "vngoods_05_444967.avif",
+      "category": "Hoodies",
+      "name": "Hoodies Grey",
+      "price": "25",
+      "id": 7
+    },
+    {
+      "image": "vngoods_08_460327.avif",
+      "category": "Hoodies",
+      "name": "Hoodies Light Black",
+      "price": "30",
+      "id": 8
+    },
+    {
+      "image": "vngoods_09_463350.avif",
+      "category": "Hoodies",
+      "name": "Hoodies Fleece Black",
+      "price": "30",
+      "id": 9
+    },
+    {
+      "image": "vngoods_12_457931.avif",
+      "category": "T-shirts",
+      "name": "T-shirts Pink and White",
+      "price": "15",
+      "id": 10
+    },
+    {
+      "image": "vngoods_18_457898.avif",
+      "category": "Polo",
+      "name": "Polo Red and Yellow",
+      "price": "23",
+      "id": 11
+    },
+    {
+      "image": "vngoods_24_460324.avif",
+      "category": "Hoodies",
+      "name": "Hoodies Orange",
+      "price": "27",
+      "id": 12
+    },
+    {
+      "image": "vngoods_30_468546.avif",
+      "category": "Polo",
+      "name": "Polo Light Grey",
+      "price": "18",
+      "id": 13
+    },
+    {
+      "image": "vngoods_35_461550.avif",
+      "category": "Hoodies",
+      "name": "Hoodies Brown",
+      "price": "27",
+      "id": 14
+    },
+    {
+      "image": "vngoods_44_455414.avif",
+      "category": "T-shirts",
+      "name": "T-shirts Light Yellow",
+      "price": "14",
+      "id": 15
+    }
+  ]
+}
