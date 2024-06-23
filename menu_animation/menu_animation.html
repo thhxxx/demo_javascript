@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            list-style: none;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            display: inline-flex;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        ul li {
+            box-sizing: border-box;
+            cursor: pointer;
+            position: relative;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        ul li a {
+            text-decoration: none;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000;
+            transition: color 0.2s ease;
+        }
+
+        ul li a svg {
+            width: 30px;
+            height: 30px;
+        }
+
+        ul li a:hover {
+            color: blue;
+        }
+
+        ul li:hover~.indicator {
+            width: 20%;
+        }
+
+        ul li:hover:nth-child(1)~.indicator {
+            left: 0;
+        }
+
+        ul li:hover:nth-child(2)~.indicator {
+            left: 20%;
+        }
+
+        ul li:hover:nth-child(3)~.indicator {
+            left: 40%;
+        }
+
+        ul li:hover:nth-child(4)~.indicator {
+            left: 60%;
+        }
+
+        ul li:hover:nth-child(5)~.indicator {
+            left: 80%;
+        }
+
+        ul li.indicator {
+            z-index: 0;
+            width: 100%;
+            height: 60px;
+            border-radius: 30px;
+            background-color: rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: all 0.2s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="#">
+                <svg class="bi bi-person-fill" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M5 16s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H5zm5-6a3 3 0 100-6 3 3 0 000 6z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <svg class="bi bi-bell-fill" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M10 18a2 2 0 002-2H8a2 2 0 002 2zm.995-14.901a1 1 0 10-1.99 0A5.002 5.002 0 005 8c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z">
+                    </path>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <svg class="bi bi-trophy" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M5 3h10c-.495 3.467-.5 10-5 10S5.495 6.467 5 3zm0 15a1 1 0 011-1h8a1 1 0 011 1H5zm2-1a1 1 0 011-1h4a1 1 0 011 1H7z">
+                    </path>
+                    <path fill-rule="evenodd"
+                        d="M14.5 5a2 2 0 100 4 2 2 0 000-4zm-3 2a3 3 0 116 0 3 3 0 01-6 0zm-6-2a2 2 0 100 4 2 2 0 000-4zm-3 2a3 3 0 116 0 3 3 0 01-6 0z"
+                        clip-rule="evenodd"></path>
+                    <path d="M9 12h2v4H9v-4z"></path>
+                    <path d="M12 13c0 .552-.895 1-2 1s-2-.448-2-1 .895-1 2-1 2 .448 2 1z"></path>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <svg class="bi bi-pie-chart-fill" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M17.985 10.5h-7.778l-5.5 5.5a8 8 0 0013.277-5.5zM4 15.292A8 8 0 019.5 2.015v7.778l-5.5 5.5zm6.5-13.277V9.5h7.485A8.001 8.001 0 0010.5 2.015z">
+                    </path>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <svg class="bi bi-trophy" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M5 3h10c-.495 3.467-.5 10-5 10S5.495 6.467 5 3zm0 15a1 1 0 011-1h8a1 1 0 011 1H5zm2-1a1 1 0 011-1h4a1 1 0 011 1H7z">
+                    </path>
+                    <path fill-rule="evenodd"
+                        d="M14.5 5a2 2 0 100 4 2 2 0 000-4zm-3 2a3 3 0 116 0 3 3 0 01-6 0zm-6-2a2 2 0 100 4 2 2 0 000-4zm-3 2a3 3 0 116 0 3 3 0 01-6 0z"
+                        clip-rule="evenodd"></path>
+                    <path d="M9 12h2v4H9v-4z"></path>
+                    <path d="M12 13c0 .552-.895 1-2 1s-2-.448-2-1 .895-1 2-1 2 .448 2 1z"></path>
+                </svg>
+            </a>
+        </li>
+
+
+        <li class="indicator"></li>
+    </ul>
+</body>
+
+</html>
